@@ -1,0 +1,25 @@
+{
+  "fecha_exploracion": "2025-11-18T09:43:50.466471",
+  "documentos_procesados": 3,
+  "chunks_creados": 782,
+  "total_tokens": 133873,
+  "consultas_realizadas": 4,
+  "configuracion": {
+    "chunk_size": 1000,
+    "chunk_overlap": 200,
+    "embedding_model": "text-embedding-3-small",
+    "vector_store": "ChromaDB"
+  },
+  "categorias": [
+    "clinical",
+    "ethics",
+    "public_health"
+  ],
+  "generacion_respuestas": {
+    "modelo": "gpt-4o-mini",
+    "temperatura": 0.3,
+    "max_tokens": 1000,
+    "consultas_probadas": 4,
+    "estado": "validado"
+  }
+}

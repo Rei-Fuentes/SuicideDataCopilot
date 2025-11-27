@@ -1,0 +1,38 @@
+{
+  "fecha_creacion": "2025-11-18T10:29:40.150880",
+  "version": "1.0.0",
+  "documentos": {
+    "total": 29,
+    "por_categoria": {
+      "clinical": 10,
+      "ethics": 10,
+      "public_health": 9
+    }
+  },
+  "chunks": {
+    "total": 8209,
+    "chunk_size": 1000,
+    "chunk_overlap": 200
+  },
+  "tokens_totales": 1595225,
+  "vectorstore": {
+    "tipo": "ChromaDB",
+    "coleccion": "cuidar_rag_production",
+    "ubicacion": "/Users/reinerfuentesferrada/ONLINE_DS_THEBRIDGE_Rei/Proyecto ML/cuidar-ia/data/chroma_db/production",
+    "embedding_model": "text-embedding-3-small"
+  },
+  "retriever": {
+    "search_type": "similarity",
+    "k": 5
+  },
+  "generation": {
+    "modelo": "gpt-4o-mini",
+    "temperatura": 0.3,
+    "max_tokens": 1200
+  },
+  "categorias": [
+    "Enfoques Clínicos y Sistemas de Salud",
+    "Fundamentos Éticos y Gobernanza de Datos",
+    "Perspectivas Salud Pública y Comunitaria"
+  ]
+}
