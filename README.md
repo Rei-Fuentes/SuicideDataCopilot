@@ -218,6 +218,7 @@ Este proyecto maneja datos sensibles de salud pública. He implementado consider
 - Cumplir con regulaciones locales de protección de datos
 - Usar los insights para prevención y políticas públicas responsables
 - Evitar discriminación o estigmatización
+- El apartado de evaluador de base de datos cuenta con una base de datos simulados.
 
 ## Licencia
 
@@ -232,7 +233,7 @@ Desarrollador Principal del Proyecto CUIDAR IA
 
 ## Agradecimientos
 
-Agradezco a las organizaciones de salud pública por los datos, a la comunidad de código abierto, y a los investigadores en prevención del suicidio cuyo trabajo ha informado este proyecto.
+Agradezco a The Bridge por la beca para mi foromación como Científico de Datos, a la comunidad de código abierto, y a los investigadores en prevención del suicidio cuyo trabajo ha informado este proyecto.
 
 ## Contacto
 
