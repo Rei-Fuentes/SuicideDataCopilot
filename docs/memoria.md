@@ -19,7 +19,6 @@ El suicidio es un problema de salud pública global que requiere enfoques basado
 
 ### 2.1 Adquisición de Datos
 - **Fuentes de Datos**: Datos de salud pública, registros históricos de eventos
-- **Período de Análisis**: [Especificar período]
 - **Variables Principales**: Ubicación geográfica, fecha, método, demografía
 
 ### 2.2 Preprocesamiento de Datos
@@ -33,71 +32,9 @@ El suicidio es un problema de salud pública global que requiere enfoques basado
    - Clustering geoespacial para identificación de zonas de riesgo
    - Codificación de variables categóricas
 
-3. **División de Datos**:
-   - Train: 80%
-   - Test: 20%
-   - Validación cruzada: 5-fold
-
-### 2.3 Modelos Desarrollados
-
-#### Modelos Supervisados
-1. **Regresión Logística**
-   - Baseline model
-   - Interpretabilidad alta
-
-2. **Random Forest**
-   - Manejo de no linealidades
-   - Feature importance
-
-3. **Gradient Boosting**
-   - Alto rendimiento
-   - Optimización secuencial
-
-4. **SVM (Support Vector Machine)**
-   - Clasificación con kernel RBF
-   - Efectivo en espacios de alta dimensión
-
-5. **K-Nearest Neighbors**
-   - Clasificación basada en similitud
-   - Sensible a escala de features
-
-#### Modelos No Supervisados
-- **DBSCAN Clustering**: Para identificación de clusters geoespaciales
-- **Análisis de Componentes Principales (PCA)**: Para reducción de dimensionalidad
-
-### 2.4 Hiperparametrización
-- Método: GridSearchCV
-- Estrategia de validación: 5-fold cross-validation
-- Métrica de optimización: F1-Score (balanceo entre precisión y recall)
-
-## 3. Resultados
-
-### 3.1 Rendimiento de Modelos
-
-| Modelo | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
-|--------|----------|-----------|--------|----------|---------|
-| Logistic Regression | 0.XX | 0.XX | 0.XX | 0.XX | 0.XX |
-| Random Forest | 0.XX | 0.XX | 0.XX | 0.XX | 0.XX |
-| Gradient Boosting | 0.XX | 0.XX | 0.XX | 0.XX | 0.XX |
-| SVM | 0.XX | 0.XX | 0.XX | 0.XX | 0.XX |
-| KNN | 0.XX | 0.XX | 0.XX | 0.XX | 0.XX |
-
-*Nota: Actualizar con resultados reales*
-
-### 3.2 Modelo Final Seleccionado
-- **Modelo**: Random Forest Classifier
-- **Justificación**: Balance óptimo entre rendimiento, interpretabilidad y robustez
-- **Métricas Finales**: [Especificar]
-
-### 3.3 Interpretación de Variables
-**Features más importantes**:
-1. [Feature 1]: Importancia XX%
-2. [Feature 2]: Importancia XX%
-3. [Feature 3]: Importancia XX%
-
-### 3.4 Análisis Geoespacial
+### 3. Análisis Geoespacial
 - **Clusters Identificados**: X zonas de alto riesgo
-- **Patrones Temporales**: [Describir tendencias]
+- **Patrones Temporales**
 - **Visualizaciones**: Mapas interactivos con clustering DBSCAN
 
 ## 4. Aplicación Streamlit
@@ -148,8 +85,8 @@ El suicidio es un problema de salud pública global que requiere enfoques basado
 4. Integración de IA conversacional para soporte a decisiones
 
 ### 5.2 Limitaciones
-- [Especificar limitaciones del proyecto]
-- [Consideraciones éticas y de privacidad]
+- No tiene autenticación
+- Sin evaluación de métricas del RAG
 
 ### 5.3 Trabajo Futuro
 1. Expansión de fuentes de datos
@@ -157,13 +94,9 @@ El suicidio es un problema de salud pública global que requiere enfoques basado
 3. Integración con sistemas de salud en tiempo real
 4. Desarrollo de alertas tempranas automatizadas
 
-## 6. Referencias
-1. [Agregar referencias bibliográficas]
-2. [Guías y protocolos utilizados]
-3. [Documentación técnica]
 
 ---
 
-**Autor**: [Tu nombre]  
-**Fecha**: Enero 2025  
-**Institución**: [Tu institución]
+**Autor**: Reiner Fuentes Ferrada 
+**Fecha**: Noviembre, 2025  
+**Institución**: Data Science & IA, The Bridge, Valencia, España.
