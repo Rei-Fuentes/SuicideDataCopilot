@@ -32,10 +32,11 @@ class RAGEngine:
     
     def __init__(self):
         """Inicializa el motor RAG con el vector store de producción."""
-        self.client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+        from config.settings import settings
+        self.client = OpenAI(api_key=settings.OPENAI_API_KEY)
         self.embeddings = OpenAIEmbeddings(
             model=RAG_CONFIG["embedding_model"],
-            openai_api_key=os.getenv('OPENAI_API_KEY')
+            openai_api_key=settings.OPENAI_API_KEY
         )
         
         # Cargar vector store de producción

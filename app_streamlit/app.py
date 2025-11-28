@@ -13,9 +13,6 @@ from pathlib import Path
 app_dir = Path(__file__).parent / "app"
 sys.path.insert(0, str(app_dir))
 
-# Importar y ejecutar la aplicación principal
-from app import main
-
-if __name__ == "__main__":
-    # La aplicación se ejecuta automáticamente cuando Streamlit carga este archivo
-    pass
+# Ejecutar el módulo main directamente
+import runpy
+runpy.run_module("main", run_name="__main__")

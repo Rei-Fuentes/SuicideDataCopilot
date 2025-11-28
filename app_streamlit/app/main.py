@@ -34,7 +34,7 @@ st.markdown('<div class="cards-section">', unsafe_allow_html=True)
 if "cuidar_results" in st.session_state and st.session_state.cuidar_results:
     st.info("✅ Ya completaste tu diagnóstico. Ve a la página de Resultados para ver el análisis completo.")
     if st.button("Ver Resultados del CUIDAR Index", type="primary", use_container_width=True):
-        st.switch_page("pages/4_Resultados_CUIDAR_Index.py")
+        st.switch_page("pages/2_Resultados_CUIDAR_Index.py")
 
 st.markdown('<h2 style="text-align: center; margin-bottom: 2rem;">¿Cómo quieres trabajar hoy?</h2>', unsafe_allow_html=True)
 
